@@ -94,7 +94,7 @@ def click_i():
             pyautogui.click(real_x,real_y)
             time.sleep(1)
             pokemon1_x = 455
-            pokemon1_y = 100
+            pokemon1_y = 100 #laptop y is 173 i think 
             pyautogui.moveTo(pokemon1_x, pokemon1_y)
             pyautogui.click()
             keyboard.press('i')
